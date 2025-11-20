@@ -12,7 +12,7 @@ from utils import temp
 import re
 import humanize
 from info import ADMINS 
-from phoenixbot import PhoenixAutofilterBotBot 
+from phoenixbot import PhoenixAutofilterBot 
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
