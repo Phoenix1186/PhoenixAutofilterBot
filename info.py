@@ -53,7 +53,7 @@ PRIME_MEMBERS_LOGS = int(environ.get('PRIME_MEMBERS_LOGS'))
 # PREMIUM ACCESS *
 phoenixdownloaders = [int(phoenixdownloaders) if id_pattern.search(phoenixdownloaders) else phoenixdownloaders for phoenixdownloaders in environ.get('PRIME_DOWNLOADERS', '').split()]
 PRIME_USERS = (phoenixdownloaders) if phoenixdownloaders else [] # users who can get & download file without url shortner
-phoenix_renamers = [int(lazrenamers) if id_pattern.search(lazrenamers) else lazrenamers for lazrenamers in environ.get('PHOENIX_RENAMERS', '').split()]
+phoenix_renamers = [int(phoenix_renamers) if id_pattern.search(phoenix_renamers) else phoenix_renamers for phoenix_renamers in environ.get('PHOENIX_RENAMERS', '').split()]
 PHOENIX_RENAMERS = (phoenix_renamers + ADMINS) if phoenix_renamers else [] #Add user id of the user in this field those who you want to be Authentic user for file renaming features
 LZURL_PRIME_USERS = [int(phoenixurlers) if id_pattern.search(phoenixurlers) else phoenixurlers for phoenixurlers in environ.get('LZURL_PRIME_USERS', '5965340120').split()]
 
