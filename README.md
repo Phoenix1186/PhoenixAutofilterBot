@@ -6,6 +6,12 @@
 </h1>
 
 ## ⚡️Features
+
+### 📢 Support & Updates
+Join our Telegram Channel for updates and support: **[Phoenix Autofilter Bot Channel](https://t.me/ph0enix_web)**
+
+---
+
 - 🔥 UPCOMING : `BOT CLONING[V-_._]` & `LANGUAGE and SEASON FILTER[V-_._]`
 - [x] 🔥 New feature :
     - [+] ⚡️ Added `URL UPLOADING` feature and many more  ⚡️
