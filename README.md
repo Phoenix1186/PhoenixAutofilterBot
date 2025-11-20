@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/3b46329e607912a0cddab.png" alt="Phoenix Autofilter Bot Logo">
+  <img src="https://i.ibb.co/TBfWBFyK/IMG-20250616-WA0014.jpg" alt="Phoenix Autofilter Bot Logo">
 </p>
 <h1 align="center">
   <b> Phoenix autofilter bot </b>
