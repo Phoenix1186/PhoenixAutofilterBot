@@ -48,8 +48,8 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 # LOG CHANNELS *
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
 PHOENIX_GROUP_LOGS = int(environ.get('PHOENIX_GROUP_LOGS', 0))
-REQ_CHANNEL = int(environ.get('REQ_CHANNEL'))
-PRIME_MEMBERS_LOGS = int(environ.get('PRIME_MEMBERS_LOGS'))
+REQ_CHANNEL = int(environ.get('REQ_CHANNEL', 0))
+PRIME_MEMBERS_LOGS = int(environ.get('PRIME_MEMBERS_LOGS', 0))
 
 # PREMIUM ACCESS *
 phoenixdownloaders = [int(phoenixdownloaders) if id_pattern.search(phoenixdownloaders) else phoenixdownloaders for phoenixdownloaders in environ.get('PRIME_DOWNLOADERS', '').split()]
