@@ -1,4 +1,4 @@
-'https re
+
 from os import getenv, environ
 import logging
 
