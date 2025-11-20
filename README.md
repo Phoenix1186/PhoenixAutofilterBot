@@ -62,7 +62,7 @@ Read [this](https://telegram.dog/ph0enix_web/8) before you start messing up with
 * `PRIME_DOWNLOADERS`: ID of the users to which you want to give file uploading using url. Separate multiple ids by space.
 
 
-* Check [info.py](https://github.com/ph0enix_web/PhoenixAutofilterBot/blob/master/info.py) for more
+* Check [info.py](https://github.com/Phoenix1186/PhoenixAutofilterBot/blob/main/info.py) for more
 
 
 ## Deploy
