@@ -1,5 +1,5 @@
 
-from os import getenv, environ
+import re\nfrom os import getenv, environ
 import logging
 
 logging.basicConfig(
